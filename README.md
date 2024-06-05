@@ -6,6 +6,7 @@
 
 <p align="center">
   Multi-Platform Gamepad Firmware for RP2040
+  THIS FORK IS MEANT FOR PXP-GAMEPAD ONLY
 </p>
 
 <p align="center">
