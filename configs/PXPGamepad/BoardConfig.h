@@ -54,6 +54,7 @@
 
 // Setting GPIO pins to assigned by add-on
 //
+#define GPIO_PIN_16 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_26 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_27 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_28 GpioAction::ASSIGNED_TO_ADDON
@@ -75,5 +76,15 @@
 #define DEFAULT_OUTER_DEADZONE      50
 #define AUTO_CALIBRATE_ENABLED      1
 
+// RGB LED Configuration
+//
+#define BOARD_LEDS_PIN              16
+#define LEDS_PER_PIXEL              1
+#define LED_BRIGHTNESS_MAXIMUM      128
+#define LED_BRIGHTNESS_STEPS        5
+#define LEDS_BASE_ANIMATION_INDEX   0    // 0 Static, 1 Rainbow, 2 Rainbow Chase, 3 Static Theme, 4 Custom Theme
+#define LEDS_STATIC_COLOR_INDEX     2    // 0 Black, 1 White, 2 Red, 3 Orange, 4 Yellow, 5 Lime Green, 6 Green,
+#define LEDS_BUTTON_COLOR_INDEX     6    // 7 Seafoam, 8 Aqua, 9 Sky Blue, 10 Blue, 11 Purple, 12 Pink, 13 Magenta
+#define LEDS_BUTTON_B1              0
 
 #endif
